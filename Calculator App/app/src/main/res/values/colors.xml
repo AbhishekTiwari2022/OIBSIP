@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="gray">#C3C3C5</color>
     <color name="blueback">#CDCDFF</color>
+    <color name="Magenta">#C0C0C0</color>
+    <color name="DarkCoffe">#2E1A47</color>
 </resources>

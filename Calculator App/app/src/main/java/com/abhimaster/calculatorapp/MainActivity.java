@@ -8,7 +8,8 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
-
+    /* Task:3
+    * Calculator App BY Abhishek Tiwari */
     String oldNumber;
     String op = "+";
     EditText edtext;

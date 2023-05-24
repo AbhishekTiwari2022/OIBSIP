@@ -15,7 +15,7 @@
         android:layout_marginBottom="1dp"
         android:ems="10"
         android:layout_weight="1"
-        android:background="@color/gray"
+        android:background="@color/teal_700"
         android:gravity="right|center"
         android:textSize="40pt"
         android:inputType="textPersonName"
@@ -33,32 +33,35 @@
             <Button
                 android:id="@+id/buAC"
                 android:text="AC"
+                android:textColor="#FFFFFF"
                 android:onClick="acEvent"
                 android:layout_marginRight="1pt"
                 android:layout_height="30pt"
                 android:layout_width="30pt"
                 android:layout_weight="1"
-                android:background="@color/blueback"
+                android:background="@color/Magenta"
                 ></Button>
             <Button
                 android:id="@+id/buPlusMinus"
                 android:text="+/-"
+                android:textColor="#FFFFFF"
                 android:onClick="numberEvent"
                 android:layout_marginRight="1pt"
                 android:layout_height="30pt"
                 android:layout_width="30pt"
                 android:layout_weight="1"
-                android:background="@color/blueback"
+                android:background="@color/Magenta"
                 ></Button>
             <Button
                 android:id="@+id/buDevide"
                 android:text="/"
+                android:textColor="#FFFFFF"
                 android:onClick="operatorEvent"
                 android:layout_marginRight="1pt"
                 android:layout_height="30pt"
                 android:layout_width="30pt"
                 android:layout_weight="1"
-                android:background="@color/blueback"
+                android:background="@color/Magenta"
                 ></Button>
             <Button
                 android:id="@+id/buMultiply"
@@ -69,7 +72,7 @@
                 android:layout_height="30pt"
                 android:layout_width="30pt"
                 android:layout_weight="1"
-                android:background="@color/design_default_color_primary_dark"
+                android:background="@color/DarkCoffe"
                 ></Button>
         </TableRow>
 
@@ -85,7 +88,7 @@
                 android:layout_height="30pt"
                 android:layout_width="30pt"
                 android:layout_weight="1"
-                android:background="@color/blueback"
+                android:background="@color/Magenta"
                 ></Button>
             <Button
                 android:id="@+id/bu8"
@@ -95,7 +98,7 @@
                 android:layout_height="30pt"
                 android:layout_width="30pt"
                 android:layout_weight="1"
-                android:background="@color/blueback"
+                android:background="@color/Magenta"
                 ></Button>
             <Button
                 android:id="@+id/bu9"
@@ -105,7 +108,7 @@
                 android:layout_height="30pt"
                 android:layout_width="30pt"
                 android:layout_weight="1"
-                android:background="@color/blueback"
+                android:background="@color/Magenta"
                 ></Button>
             <Button
                 android:id="@+id/buPercent"
@@ -116,7 +119,7 @@
                 android:layout_height="30pt"
                 android:layout_width="30pt"
                 android:layout_weight="1"
-                android:background="@color/design_default_color_primary_dark"
+                android:background="@color/DarkCoffe"
                 ></Button>
         </TableRow>
 
@@ -132,7 +135,7 @@
                 android:layout_height="30pt"
                 android:layout_width="30pt"
                 android:layout_weight="1"
-                android:background="@color/blueback"
+                android:background="@color/Magenta"
                 ></Button>
             <Button
                 android:id="@+id/bu5"
@@ -142,7 +145,7 @@
                 android:layout_height="30pt"
                 android:layout_width="30pt"
                 android:layout_weight="1"
-                android:background="@color/blueback"
+                android:background="@color/Magenta"
                 ></Button>
             <Button
                 android:id="@+id/bu6"
@@ -152,7 +155,7 @@
                 android:layout_height="30pt"
                 android:layout_width="30pt"
                 android:layout_weight="1"
-                android:background="@color/blueback"
+                android:background="@color/Magenta"
                 ></Button>
             <Button
                 android:id="@+id/buPlus"
@@ -163,7 +166,7 @@
                 android:layout_height="30pt"
                 android:layout_width="30pt"
                 android:layout_weight="1"
-                android:background="@color/design_default_color_primary_dark"
+                android:background="@color/DarkCoffe"
                 ></Button>
         </TableRow>
 
@@ -179,7 +182,7 @@
                 android:layout_height="30pt"
                 android:layout_width="30pt"
                 android:layout_weight="1"
-                android:background="@color/blueback"
+                android:background="@color/Magenta"
                 ></Button>
             <Button
                 android:id="@+id/bu2"
@@ -189,7 +192,7 @@
                 android:layout_height="30pt"
                 android:layout_width="30pt"
                 android:layout_weight="1"
-                android:background="@color/blueback"
+                android:background="@color/Magenta"
                 ></Button>
             <Button
                 android:id="@+id/bu3"
@@ -199,7 +202,7 @@
                 android:layout_height="30pt"
                 android:layout_width="30pt"
                 android:layout_weight="1"
-                android:background="@color/blueback"
+                android:background="@color/Magenta"
                 ></Button>
             <Button
                 android:id="@+id/buMinus"
@@ -210,7 +213,7 @@
                 android:layout_height="30pt"
                 android:layout_width="30pt"
                 android:layout_weight="1"
-                android:background="@color/design_default_color_primary_dark"
+                android:background="@color/DarkCoffe"
                 ></Button>
         </TableRow>
 
@@ -234,7 +237,7 @@
                 android:layout_height="30pt"
                 android:layout_width="39pt"
                 android:layout_weight="2"
-                android:background="@color/blueback"
+                android:background="@color/Magenta"
                 ></Button>
             <Button
                 android:id="@+id/buDot"
@@ -244,7 +247,7 @@
                 android:layout_height="30pt"
                 android:layout_width="39pt"
                 android:layout_weight="2"
-                android:background="@color/blueback"
+                android:background="@color/Magenta"
                 ></Button>
             <Button
                 android:id="@+id/buEqual"
@@ -255,7 +258,7 @@
                 android:layout_height="30pt"
                 android:layout_width="30pt"
                 android:layout_weight="1"
-                android:background="@color/design_default_color_primary_dark"
+                android:background="@color/DarkCoffe"
                 ></Button>
 
         </TableRow>
