@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="Enter Number"
+        android:textSize="28sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"/>
+
+    <Button
+        android:id="@+id/btn_centimeter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNumberDecimal"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="209dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="CentiMETER" />
+
+    <Button
+        android:id="@+id/btn_meter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meter"
+        android:layout_below="@id/editTextNumberDecimal"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/btn_grams"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grams"
+        android:layout_below="@id/btn_meter"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/btn_kilograms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KILOGRAM"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="209dp"
+        android:layout_below="@id/btn_centimeter"
+        android:layout_marginTop="30dp"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txt_output"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_grams"
+        android:textSize="20sp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+</RelativeLayout>
